@@ -5,6 +5,9 @@
 <table>
   <thead>
     <tr>
+    <% if user_signed_in? %>
+      <th>Author</th>
+    <% end %>
       <th>Title</th>
       <th>Body</th>
       <th colspan="3"></th>
@@ -14,6 +17,9 @@
   <tbody>
     <% @posts.each do |post| %>
       <tr>
+        <% if user_signed_in? %>
+        <td><%= post.user.email %></td>
+        <% end %>       
         <td><%= post.title %></td>
         <td><%= post.body %></td>
         <td><%= link_to 'Show', post %></td>

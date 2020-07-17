@@ -1,24 +1,34 @@
-# README
+# Clubhouse -> Building user session using Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Create a Ruby on Rails App to learn how to manage user sessions with Devise gem for Ruby on Rails as part of the Microverse learning Curriculum.
 
-Things you may want to cover:
+## Getting Started
+- Fork the repository and create a local one on your computer
+- Move to the repository inside the command line using `cd` and the path to the file
+- Run `bundle install`
+- Run `Rails server` to check out the app on your local host. 
+- Log in and create posts, only logged in user will be able to see the author behind every post. 
 
-* Ruby version
+## Built With
+- Ruby on Rails version 5.2.4.3
 
-* System dependencies
+## Authors
+👤 Michael Threels
+- Github: [@githubhandle](https://github.com/mikethreels)
+- Twitter: [@twitterhandle](https://twitter.com/MichaelThreels)
+- LinkedIn :[@linkedinhandle](https://www.linkedin.com/in/michael-threels-24101991)
 
-* Configuration
+👤 Santiago Rodriguez
+- Github: [@srba87](https://github.com/santiagorodriguezbermudez)
+- Twitter: [@srba87](https://twitter.com/srba87)
+- Linkedin: [srba87](https://linkedin.com/in/srba87)
 
-* Database creation
+## 🤝 Contributing
 
-* Database initialization
+Contributions, issues and feature requests are welcome!
 
-* How to run the test suite
+Feel free to check the [issues page](issues/).
 
-* Services (job queues, cache servers, search engines, etc.)
+## Show your support
 
-* Deployment instructions
-
-* ...
+Give a ⭐️ if you like this project!
